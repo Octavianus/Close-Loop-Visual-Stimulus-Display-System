@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Visual Stimulus</title>
+    <script src="d3.v3.js"></script>
+      <style>
+      .important {
+        font-size: 300%;
+      }
+      .tick > line {
+        fill: none;
+        stroke: black;
+      }
+      .tick > text {
+        fill: black;
+      }
+      path.domain {
+        fill: none;
+        stroke-width: 2px;
+        stroke: black;
+      }
+      .my-chart {
+      fill: #bbb;
+      background-color: #fee;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+
+    <svg id="svg1" width="800" height="450">
+    </svg>
+    <div>
+      <button id="switch">Moving Direction</button> (Current Direction: <span id="currentDirection"></span>)
+    </div>
+    <div>
+      <button id="switch2">Next Patterns</button> (Current Pattern: <span id="currentPattern"></span>)
+    </div>
+
+    <script src="pattern.js"></script>
+
+  </body>
+
+</html>

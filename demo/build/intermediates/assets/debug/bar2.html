@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Visual Stimulus</title>
+    <script src="d3.v3.js"></script>
+    <style>
+                  
+    </style>
+  </head>
+  <body>
+    <svg id="svg1" width="800" height="450">
+    </svg>
+     
+
+    <div>
+      <button id="switch">Moving Direction</button> (Current Direction: <span id="currentDirection"></span>)
+      <button id="widI" onclick = "window.MyHandler.setResult(parametersString())">Width+</button>
+      <button id="widD" onclick = "window.MyHandler.setResult(parametersString())">Width-</button>
+      <button id="speedI" onclick = "window.MyHandler.setResult(parametersString())">Speed+</button>
+      <button id="speedD" onclick = "window.MyHandler.setResult(parametersString())">Speed-</button>
+    </div>
+       <script src="bar2.js"></script>
+    <script type="text/javascript">
+        function parametersString(){
+            var comStr=" ";
+            return " Speed " + speed + " orientation " + orientation + " Hbars " + Hbars + " Hheight " + Hheight;
+        }
+
+        function changeParameters(val1, val2){
+            Hbars = val1;
+            Hheight = val2;
+        }
+    </script>
+  </body>
+</html>

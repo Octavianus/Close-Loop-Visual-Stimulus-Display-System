@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Android/ExoPlayer-master/demo/src/main/res/values/constants.xml -->
+    <eat-comment/>
+    <dimen name="subtitle_minimum_font_size">13sp</dimen>
+    <!-- From: file:/E:/Android/ExoPlayer-master/demo/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="application_name">Visual Stimulus Display System</string>
+    <string name="audio">Audio</string>
+    <string name="drm_error_not_supported">Protected content not supported on API levels below 18</string>
+    <string name="drm_error_unknown">An unknown DRM error occurred</string>
+    <string name="drm_error_unsupported_scheme">This device does not support the required DRM scheme</string>
+    <string name="enable_background_audio">Play in background</string>
+    <string name="failed">Playback failed</string>
+    <string name="logging">Logging</string>
+    <string name="logging_normal">Normal</string>
+    <string name="logging_verbose">Verbose</string>
+    <string name="off">[off]</string>
+    <string name="on">[on]</string>
+    <string name="retry">Retry</string>
+    <string name="text">Text</string>
+    <string name="video">Video</string>
+    <!-- From: file:/E:/Android/ExoPlayer-master/demo/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="DemoButton">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:minWidth">40dp</item>
+  </style>
+    <style name="PlayerTheme" parent="@style/RootTheme">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowBackground">@android:color/black</item>
+  </style>
+    <style name="RootTheme" parent="android:Theme.Holo">
+  </style>
+</resources>

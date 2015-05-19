@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android\ExoPlayer-master\demo\build\intermediates\exploded-aar\ExoPlayer-master\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c09d97e9041261c42cdee611dfcb604993382b6c">
+        <dex dex="E:\Android\ExoPlayer-master\demo\build\intermediates\pre-dexed\debug\classes-b71ec4713fd82e3de60c87e9c8ad1feebdcafd12.jar" />
+    </item>
+
+</items>
